@@ -2,3 +2,75 @@
     margin: 0;
     padding: 0;
 }
+/* css header section start */
+.container{
+    background-image: url('./img/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 82.5%;
+    max-width: 1440px;
+    background-size: cover;
+    background-position: top;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text h4{
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 79px;
+    font-style: normal;
+}
+.banner-text{
+    border-radius: 10px;
+    padding: 177px 0 177px 0;
+    align-items: center;
+}
+/* css header section end */
+
+
+
+/* css new year section start */
+.happy-new-year h1{
+    font-size: 88px;
+    color: #F00;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+
+}
+.happy-new-year p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #F00;
+    padding: 40px 0 10px 0;
+}
+.happy-new-year h2{
+    font-size: 40px;
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.happy-new-year img{
+    width: 660px;
+}
+.happy-new-year{
+    text-align: center;
+    padding-top: 50px;
+}
+/* css new year section start */
