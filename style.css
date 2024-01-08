@@ -202,28 +202,39 @@
 /* css subscribe newesletter section end */
 
 /* footer section start */
-footer{
-    background-color: #070211;
-    margin-top: 100px;
-    height: 550px;
+footer {
+  background-color: #070211;
+  margin-top: 100px;
+  height: 565px;
 }
-.first-text{
-    padding: 100px;
-
+.first-text {
+  padding: 100px;
 }
-.first-both-text{
-    display: flex;
-    color: #fff;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-    padding-top: 40px;
+.left-text {
+  width: 65%;
 }
-.all-icons{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.first-text p {
+  font-size: 20px;
+}
+.first-both-text {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  align-items: center;
+}
+.all-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.both-text {
+  display: flex;
+  color: #fff;
+  padding-bottom: 40px;
 }
 /* footer section start */
