@@ -9,7 +9,7 @@
 .container {
   width: 82.5%;
   max-width: 1440px;
-  margin:50px auto;
+  margin: 50px auto;
 }
 .banner-text h4 {
   text-align: center;
@@ -32,7 +32,8 @@
   border-radius: 10px;
   padding: 177px 0 177px 0;
   align-items: center;
-  background-image: linear-gradient(180deg,#070211 0%,rgba(7,2,17,0)100%),url("./img/Banner\ Image.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./img/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -79,13 +80,14 @@
 
 /* css midnight party section start */
 .midnight-party {
-  background-image: linear-gradient(90deg,#070211 0%,rgba(7,2,17,0)100%),url("./img/Vectorrr.png");
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./img/Vectorrr.png");
   border-radius: 10px;
   font-family: "Merriweather", serif;
   display: flex;
- background-repeat: no-repeat;
- background-size: cover;
- background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   position: relative;
   height: 567px;
   margin-top: 100px;
@@ -132,21 +134,23 @@
 /* css midnight party section end */
 
 /* css place date time start */
-.place-date-time{
-background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-text-align: center;
-padding-top: 100px;
-border-radius: 15px;
-margin-top: 100px;
-padding-bottom: 100px;
-
+.place-date-time {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 15px;
+  margin-top: 100px;
+  padding-bottom: 100px;
 }
-.place-date-time h3{
+.place-date-time h3 {
   font-size: 25px;
   padding-bottom: 20px;
-  
 }
-.join-now{
+.join-now {
   background-color: #f00;
   color: #fff;
   border: none;
@@ -157,23 +161,24 @@ padding-bottom: 100px;
   margin-top: 30px;
   transition: 0.5s;
 }
-.join-now:hover{
+.join-now:hover {
   background-color: purple;
   color: #fff;
 }
-span{
+span {
   color: #f00;
 }
 /* css place date time end */
 
 /* css best offer start */
-.best-offer-section{
+.best-offer-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
+  font-family: "Merriweather", serif;
 }
-.left-side-text h6{
+.left-side-text h6 {
   color: #f00;
   font-size: 20px;
   line-height: normal;
@@ -181,30 +186,29 @@ span{
   font-weight: 500;
   padding-bottom: 20px;
 }
-.left-side-text h1{
+.left-side-text h1 {
   font-size: 40px;
   color: #070211;
   padding-bottom: 20px;
 }
-.left-side-text p{
+.left-side-text p {
   font-size: 15px;
-  color:rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   line-height: 25px;
   font-style: normal;
 }
-.left-side-text{
+.left-side-text {
   width: 30%;
 }
-.middle-side-img{
+.middle-side-img {
   width: 40%;
   height: 400px;
   width: 400px;
   text-align: center;
   border: 12px solid #f00;
   border-radius: 460px;
-
 }
-.right-side-text h1{
+.right-side-text h1 {
   font-size: 40px;
   line-height: normal;
   font-style: normal;
@@ -212,48 +216,49 @@ span{
   padding-bottom: 20px;
   color: #f00;
 }
-.right-side-text p{
+.right-side-text p {
   font-size: 15px;
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   padding-bottom: 40px;
 }
-.middle-side-img img{
-width: 100%;
-padding: 40px;
+.middle-side-img img {
+  width: 100%;
+  padding: 40px;
 }
-.right-side-text{
+.right-side-text {
   width: 30%;
-  padding:60px 0 0 50px;
-  align-items:flex-end;
+  padding: 60px 0 0 50px;
+  align-items: flex-end;
 }
 /* css best offer end */
 
 /* css holiday start */
-.holyday-text h5{
+.holyday-text h5 {
   font-size: 20px;
   color: #070211;
   font-style: normal;
   font-weight: 500;
   padding-bottom: 15px;
 }
-.holyday-text h1{
+.holyday-text h1 {
   font-size: 65px;
   font-weight: 900;
   line-height: normal;
   font-style: normal;
   padding-bottom: 20px;
 }
-.holyday-text p{
+.holyday-text p {
   font-size: 15px;
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   padding-bottom: 80px;
 }
-.holyday-all-text-img{
+.holyday-all-text-img {
   margin-bottom: 300px;
   text-align: center;
   font-family: "Merriweather", serif;
+  margin-top: 100px;
 }
-.number-one-img{
+.number-one-img {
   position: relative;
   top: 180px;
   left: 20px;
@@ -261,43 +266,38 @@ padding: 40px;
   bottom: 0;
   z-index: 1;
 }
-.horizontal-two-img{
+.horizontal-two-img {
   display: flex;
   /* justify-content: space-between; */
   /* justify-content: space-around; */
 }
-.first-innar-img{
+.first-innar-img {
   position: absolute;
   left: 955px;
-  
-
 }
-.first-innar-img img{
+.first-innar-img img {
   padding-bottom: 10px;
 }
-.secon-inner-img{
+.secon-inner-img {
   position: relative;
   z-index: 1;
   /* bottom: 30px; */
   left: 150px;
   top: 80px;
 }
-.number-one-img img{
+.number-one-img img {
   width: 500px;
 }
-.red-img img{
+.red-img img {
   max-width: 1252px;
-  
 }
-.red-img{
+.red-img {
   /* width: 100%; */
-/* top: 0; */
+  /* top: 0; */
 
   position: absolute;
-  
 }
 /* css holiday end */
-
 
 /* css awesome portfolio start */
 .awesome-portfolio {
@@ -312,7 +312,7 @@ padding: 40px;
   max-width: 100%;
 }
 .first-3-img img {
-  max-width:398px;
+  max-width: 398px;
   padding-top: 30px;
 }
 .portfolio-text h6 {
@@ -376,7 +376,7 @@ padding: 40px;
 /* css subscribe newesletter section end */
 
 /* footer section start */
-footer{
+footer {
   background-color: #070211;
   margin-top: 100px;
   font-family: "Merriweather", serif;
