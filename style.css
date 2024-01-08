@@ -223,10 +223,81 @@ padding: 40px;
 }
 .right-side-text{
   width: 30%;
-  padding:70px 0 0 50px;
+  padding:60px 0 0 50px;
   align-items:flex-end;
 }
 /* css best offer end */
+
+/* css holiday start */
+.holyday-text h5{
+  font-size: 20px;
+  color: #070211;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.holyday-text h1{
+  font-size: 65px;
+  font-weight: 900;
+  line-height: normal;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.holyday-text p{
+  font-size: 15px;
+  color: rgba(7, 2, 17, 0.60);
+  padding-bottom: 80px;
+}
+.holyday-all-text-img{
+  margin-bottom: 300px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.number-one-img{
+  position: relative;
+  top: 180px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.horizontal-two-img{
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+}
+.first-innar-img{
+  position: absolute;
+  left: 955px;
+  
+
+}
+.first-innar-img img{
+  padding-bottom: 10px;
+}
+.secon-inner-img{
+  position: relative;
+  z-index: 1;
+  /* bottom: 30px; */
+  left: 150px;
+  top: 80px;
+}
+.number-one-img img{
+  width: 500px;
+}
+.red-img img{
+  max-width: 1252px;
+  
+}
+.red-img{
+  /* width: 100%; */
+/* top: 0; */
+
+  position: absolute;
+  
+}
+/* css holiday end */
+
 
 /* css awesome portfolio start */
 .awesome-portfolio {
@@ -271,6 +342,7 @@ padding: 40px;
   text-align: center;
   padding: 80px 0 80px 0;
   margin-top: 120px;
+  font-family: "Merriweather", serif;
 }
 .subscribe-newesletter img {
   width: 130px;
@@ -307,6 +379,7 @@ padding: 40px;
 footer{
   background-color: #070211;
   margin-top: 100px;
+  font-family: "Merriweather", serif;
   /* height: 500px; */
 }
 .first-text {
